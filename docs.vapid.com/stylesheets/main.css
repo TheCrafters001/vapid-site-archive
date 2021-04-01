@@ -1,0 +1,33 @@
+.ui.top.menu { background-image: url("../images/logo.svg"); background-repeat: no-repeat; background-position: center; background-size: auto 1.2rem; }
+.ui.top.menu svg { height: 1rem; }
+.ui.top.menu .item-home { flex: auto !important; }
+@media (min-width: 960px) { .ui.top.menu { display: none; } }
+
+.ui.sidebar { background-image: linear-gradient(0deg, #6155CE 0%, #DA7BEA 100%) !important; }
+.ui.sidebar .logo { display: none; margin: 0.5rem 6rem 0.5rem 0rem; }
+.ui.sidebar .item-home { margin-top: 15px; }
+.ui.sidebar .item:last-of-type:before { display: none; }
+.ui.sidebar .item-nohover:hover { background: transparent !important; }
+@media (min-width: 960px) { .ui.sidebar { width: 15rem !important; visibility: visible; -webkit-transform: translate3d(0, 0, 0) !important; transform: translate3d(0, 0, 0) !important; }
+  .ui.sidebar .item-home { margin-top: 0; }
+  .ui.sidebar .logo { display: inline-block; } }
+
+pre { background: #eee; padding: 20px 17px; }
+pre code { padding-left: 0; padding-right: 0; }
+
+code { background: #eee; font-style: normal; padding-left: 3px; padding-right: 3px; }
+
+.ui.table tbody td:first-of-type { font-weight: bold; }
+.ui.table td { vertical-align: top; }
+
+body, h1, h2, h3, h4, h5, h6, .menu, .item { font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif; }
+
+a { color: #F71B81; }
+a:hover { color: #F71B81; text-decoration: underline; }
+
+.pusher { width: 100%; padding: 4.5rem 1.5rem 1.5rem; }
+.pusher .hidden.message + .ui.header { margin-top: -.14285714em; }
+@media (min-width: 960px) { .pusher { padding: 1.5rem 3rem 3rem 18rem; max-width: 80rem; } }
+
+@media (min-width: 960px) { h2:target { position: relative; color: #F71B81; }
+  h2:target:before { position: absolute; left: -1.75rem; content: "\f054"; font-family: Icons; font-size: 0.9em; } }

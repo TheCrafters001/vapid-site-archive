@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.vapid.com	TRUE	/	FALSE	1999999999	vapid:sess	598nsIT8hx7NDuDcBu3yYkmEwFoe_c9o
+www.vapid.com	TRUE	/	FALSE	1999999999	vapid:sess.sig	uZyN1cH7GqWk99DQ_v6HWTe0a0U
+
